@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MovieSearch/static/css/main.84b94b48.chunk.css",
+    "main.js": "/MovieSearch/static/js/main.97a35356.chunk.js",
+    "main.js.map": "/MovieSearch/static/js/main.97a35356.chunk.js.map",
+    "runtime-main.js": "/MovieSearch/static/js/runtime-main.56278f62.js",
+    "runtime-main.js.map": "/MovieSearch/static/js/runtime-main.56278f62.js.map",
+    "static/js/2.91b30a9c.chunk.js": "/MovieSearch/static/js/2.91b30a9c.chunk.js",
+    "static/js/2.91b30a9c.chunk.js.map": "/MovieSearch/static/js/2.91b30a9c.chunk.js.map",
+    "index.html": "/MovieSearch/index.html",
+    "precache-manifest.ef95bbff49e68db5f1412a6048c6b9f7.js": "/MovieSearch/precache-manifest.ef95bbff49e68db5f1412a6048c6b9f7.js",
+    "service-worker.js": "/MovieSearch/service-worker.js",
+    "static/css/main.84b94b48.chunk.css.map": "/MovieSearch/static/css/main.84b94b48.chunk.css.map",
+    "static/js/2.91b30a9c.chunk.js.LICENSE.txt": "/MovieSearch/static/js/2.91b30a9c.chunk.js.LICENSE.txt",
+    "static/media/default_image.jpg": "/MovieSearch/static/media/default_image.d41982d3.jpg",
+    "static/media/movie.svg": "/MovieSearch/static/media/movie.d401446c.svg",
+    "static/media/spinner.gif": "/MovieSearch/static/media/spinner.a9b6febe.gif",
+    "static/media/tmdb_logo.svg": "/MovieSearch/static/media/tmdb_logo.30cd724b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56278f62.js",
+    "static/js/2.91b30a9c.chunk.js",
+    "static/css/main.84b94b48.chunk.css",
+    "static/js/main.97a35356.chunk.js"
+  ]
+}
