@@ -1,0 +1,31 @@
+.search {
+  height: 100px;
+  background-color: black;
+  width: 100%;
+  height: 65px;
+  padding: 25px 20px 0px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  padding-top: 13px;
+  border-radius: 15px;
+}
+input {
+  font-family: "Abel", sans-serif;
+  font-size: 28px;
+  position: absolute;
+  border: 0;
+  left: 0px;
+  width: 95%;
+  background: transparent;
+  height: 40px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 2px solid;
+}
+input[type="text"] {
+  background-color: rgb(23, 205, 230);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

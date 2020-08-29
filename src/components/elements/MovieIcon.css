@@ -1,0 +1,60 @@
+.icons {
+  position: relative;
+  cursor: pointer;
+}
+.movieicon-rating {
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  color: rgb(0, 255, 234);
+  font: 1.7em sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: cursive;
+  position: absolute;
+}
+.newicons {
+  position: relative;
+  height: 220px;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+.newicons:hover {
+  opacity: 0.8;
+  filter: grayscale(50%);
+  transition: 0.5s linear;
+}
+.newicons:hover .movieicon-rating {
+  opacity: 1;
+  transition: 0.5s linear;
+}
+.movieicon-image {
+  z-index: 2;
+  width: 100%;
+  border-radius: 20px;
+}
+.icons:hover .movieicon-image {
+  transition: 0.5s ease;
+  opacity: 0.4;
+}
+.icons:hover .movieicon-content {
+  opacity: 1;
+  transition: 0.5s linear;
+}
+
+.movieicon-content {
+  z-index: 9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  font-weight: 4000;
+  color: rgb(11, 167, 154);
+  font: 1.7em sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: cursive;
+}

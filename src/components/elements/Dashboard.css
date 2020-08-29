@@ -1,0 +1,70 @@
+.dashboard-wrapper {
+  position: relative;
+  width: auto;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.react {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+}
+.tmdb {
+  width: 100px;
+  height: 70px;
+  top: 25%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: absolute;
+  right: 1%;
+}
+.dashboard-image {
+  object-fit: cover;
+  background-size: cover;
+}
+.dashboardtext {
+  position: absolute;
+  color: rgb(15, 219, 219);
+  width: 1empx;
+  height: 1empx;
+  font-family: "Lobster", cursive;
+  font-size: 28px;
+  left: 6%;
+}
+@media (max-width: 960px) {
+  .dashboardtext {
+    font-size: 15px;
+    left: 12%;
+  }
+  .dashboard-wrapper {
+    height: 50px;
+  }
+
+  .tmdb {
+    width: 70px;
+    height: 40px;
+    right: 5%;
+    top: 30%;
+  }
+}
+@media (max-width: 600px) {
+  .dashboardtext {
+    font-size: 15px2;
+    left: 15%;
+  }
+  .dashboard-wrapper {
+    height: 50px;
+  }
+  .react {
+    padding: 3px;
+  }
+  .tmdb {
+    width: 70px;
+    height: 40px;
+    right: 5%;
+    top: 25%;
+  }
+}

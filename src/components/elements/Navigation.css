@@ -1,0 +1,70 @@
+.navigation {
+  position: relative;
+  width: 100%;
+  height: 555px;
+  background: black;
+  color: #fff;
+}
+.navigation-wrapper {
+  position: relative;
+  width: 100%;
+  height: 555px;
+  background: black;
+  color: #fff;
+}
+.trailer {
+  position: absolute;
+  border-radius: 20px;
+  width: 67%;
+  height: 550px;
+  left: 0%;
+  top: 2%;
+}
+.similarmovies-wrapper {
+  border: 2px solid black;
+  position: absolute;
+  width: 20%;
+  height: auto;
+  left: 68%;
+}
+.similarmovies {
+  font-size: larger;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 125px;
+}
+.navigation-grid {
+  object-fit: cover;
+  padding: 10px;
+  margin-top: -10px;
+  display: grid;
+  grid-template-columns: repeat(2, 175px);
+  grid-gap: 40px;
+  position: absolute;
+}
+
+@media (max-width: 1024px) {
+  .navigation-grid {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    height: auto;
+  }
+  .navigation-wrapper {
+    height: auto;
+  }
+}
+@media (max-width: 820px) {
+  .similarmovies-wrapper {
+    display: none;
+  }
+  .trailer {
+    width: 100%;
+    height: 300px;
+  }
+  .navigation-wrapper {
+    height: 300px;
+  }
+
+  .navigation {
+    height: 300px;
+  }
+}
